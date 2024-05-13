@@ -1,0 +1,230 @@
+
+.App{
+
+    height: 100vh; 
+   padding: 0px 100px; 
+   display: flex; 
+    /* align-items: center;  */
+    /* justify-content: center;  */
+    text-align: center; 
+
+}
+
+.persons{
+    
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.person {
+    width: 400px;
+    height: 400px;
+    background-color: #f5f5f5; /* Light Gray */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Add some padding for content */
+    margin-top: 30px; /* Adjust this value as needed */
+}
+
+.person-info {
+    /* Style for personal information */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text color */
+}
+
+.person-info h2 {
+    /* Style for headings */
+    font-size: 24px;
+    color: #0066cc; /* Blue heading color */
+}
+
+.person-info p {
+    /* Style for paragraphs */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.person-info {
+    color: 	#686868; /* You can change this color */
+    font-size: 16px; /* You can adjust the font size */
+}
+
+.person-key{
+    text-align:left;
+    color: #686868;
+}
+
+
+
+
+
+
+
+
+
+/* .delete{
+    border: none;
+    padding-top: 50px;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(45,191,191);
+    color: rgb(242,100,100);
+    
+} */
+
+.delete {
+    border: none;
+    padding: 5px 10px; /* Increase padding for larger button size */
+    background-color: rgb(191, 74, 45); /* Change background color */
+    cursor: pointer;
+    color: white; /* Change text color */
+    font-size: 15px; /* Adjust font size */
+}
+
+.delete:hover {
+    background-color: red; /* Change background color on hover */
+}
+
+
+
+
+.update {
+    border: none;
+    padding: 5px 10px; /* Increase padding for larger button size */
+    cursor: pointer;
+    font-size: 15px; /* Adjust font size */
+}
+
+.update > a {
+    text-decoration: none; /* Remove underline */
+    /* color: white; Change text color */
+    background-color: rgb(151, 243, 151); /* Change background color */
+    padding: 5px 10px; /* Match button padding */
+    /* display: inline-block; Ensure link takes full button width */
+}
+
+.update > a:hover {
+    background-color: darkgreen; /* Change background color on hover */
+}
+
+
+
+
+/* .form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 5px
+} */
+
+/* .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+  } */
+
+
+
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.form h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    font-size: 18px;
+    color: #333333;
+}
+
+.form input::placeholder {
+    color: #999999;
+}
+
+.form button {
+    padding: 14px 24px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+.addPerson{
+    border: none;
+    font-size: 18px;
+    margin-top: 100px;
+    /* padding: 3px 6px; */
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    text-decoration: none;
+    /* background-color: white; */
+    cursor: pointer;
+    /* border: 1px solid rgb(45,191,191); */
+    color: rgb(20, 41, 228);
+}
+
+
+.nav-items > ul{
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+  }
+  
+  .nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  
